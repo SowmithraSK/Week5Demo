@@ -15,7 +15,12 @@
         <h2>Average Numbers</h2>
         <form action="average" method="get">
             Enter a number: <input type="number" name="number">
-            <input type="submit" value="submit">
+            <input type="submit" value="Submit">
+        </form>
+        
+        <form action="average" method="get">
+            <input type="submit" value="Reset">
+            <input type="hidden" name="action" value="reset">
         </form>
         
         Average: ${average}
